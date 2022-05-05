@@ -9,6 +9,7 @@ Hi, nowadays I need to create custom components in React because of my work. To 
 - The most important points:
   - We have to point out the props by using `Component.propTypes={}`
   - We have to use [`setProps` props to bind our custom components](https://dash.plotly.com/react-for-python-developers#handling-the-case-when-setprops-isn't-defined) with Dash callbacks
+  - We have to import and export all components we created inside the [./src/lib/index.js](./src/lib/index.js) file
 # baysan custom components
 
 baysan custom components is a Dash component library.
