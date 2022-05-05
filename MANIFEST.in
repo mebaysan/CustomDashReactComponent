@@ -1,0 +1,11 @@
+include baysan_custom_components/baysan_custom_components.min.js
+include baysan_custom_components/baysan_custom_components.min.js.map
+include baysan_custom_components/async-*.js
+include baysan_custom_components/async-*.js.map
+include baysan_custom_components/*-shared.js
+include baysan_custom_components/*-shared.js.map
+include baysan_custom_components/metadata.json
+include baysan_custom_components/package-info.json
+include README.md
+include LICENSE
+include package.json

@@ -1,0 +1,13 @@
+Package: baysanCustomComponents
+Title: DEMO
+Version: 0.0.1
+Description: DEMO
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: MIT + file LICENSE
+URL: https://github.com/mebaysan/baysan-custom-components
+BugReports: https://github.com/mebaysan/baysan-custom-components/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
