@@ -2,7 +2,7 @@
 
 Hi, nowadays I need to create custom components in React because of my work. To do that, I have learned the basics of React. I have followed [the official documentations](https://dash.plotly.com/react-for-python-developers) to create my custom component. However it was coded with Class based components. In this repo, I used Function components. Hopefully, this will be helpful you to create your owns.
 
-![](./overview.png)
+![](./Overview.png)
 
 ## Short Brief
 
