@@ -2,13 +2,15 @@
 import React, {Component} from 'react';
 
 import TextInput from '../lib/components/TextInput.react';
+import BaysanChart from '../lib/components/BaysanChart.react';
 
 const App = () => {
     return (
         <>
-            <TextInput 
+            {/* <TextInput 
             // label={'Label from props'} 
-            value={'value from props'} />
+            value={'value from props'} /> */}
+            <BaysanChart />
         </>
     );
 };

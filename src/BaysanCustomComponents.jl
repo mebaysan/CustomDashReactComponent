@@ -5,6 +5,7 @@ using Dash
 const resources_path = realpath(joinpath( @__DIR__, "..", "deps"))
 const version = "0.0.1"
 
+include("jl/baysanchart.jl")
 include("jl/textinput.jl")
 
 function __init__()

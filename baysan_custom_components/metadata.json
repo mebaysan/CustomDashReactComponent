@@ -1,4 +1,50 @@
 {
+  "src/lib/components/BaysanChart.react.js": {
+    "description": "BaysanChart is an example of using Ant Design Charts component.\nIt takes a JSON data\nto visualize.",
+    "displayName": "BaysanChart",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "The data used to visualize"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The xField to use on the x-axis"
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The yField to use on the y-axis"
+      },
+      "legendPosition": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The legendPosition to set the position of the chart legend",
+        "defaultValue": {
+          "value": "'top-left'",
+          "computed": false
+        }
+      }
+    }
+  },
   "src/lib/components/TextInput.react.js": {
     "description": "TextInput is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
     "displayName": "TextInput",

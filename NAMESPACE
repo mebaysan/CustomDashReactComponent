@@ -1,5 +1,7 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
+export(BaysanChart)
 export(TextInput)
 export(textInput)
+export(baysanChart)
 export(baysanCustomComponent)
