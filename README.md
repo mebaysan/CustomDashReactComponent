@@ -1,3 +1,14 @@
+# Introduction
+
+Hi, nowadays I need to create custom components in React because of my work. To do that, I have learned the basics of React. I have followed [the official documentations](https://dash.plotly.com/react-for-python-developers) to create my custom component. However it was coded with Class based components. In this repo, I used Function components. Hopefully, this will be helpful you to create your owns.
+
+## Short Brief
+
+- We develop our components in `/src/lib/components/*.react.js` files
+- We can test our components by using `/src/demo/App.js` file (a React app)
+- The most important points:
+  - We have to point out the props by using `Component.propTypes={}`
+  - We have to use [`setProps` props to bind our custom components](https://dash.plotly.com/react-for-python-developers#handling-the-case-when-setprops-isn't-defined) with Dash callbacks
 # baysan custom components
 
 baysan custom components is a Dash component library.
@@ -35,7 +46,7 @@ If you have selected install_dependencies during the prompt, you can skip this p
     $ pip install -r tests/requirements.txt
     ```
 
-### Write your component code in `src/lib/components/BaysanCustomComponent.react.js`.
+### Write your component code in `src/lib/components/*.react.js`.
 
 - The demo app is in `src/demo` and you will import your example component code into your demo app.
 - Test your code in a Python environment:
